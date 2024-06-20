@@ -12,7 +12,7 @@ print('4. Sair\n')
 opcao_escolhida = int(input('Escolha uma opção: '))
 
 def finalizar_app():
-    os.system('clear')#limpa p codigo
+    os.system('clear')#limpa o console
     print('Finalizando o app...\n')
 
 if opcao_escolhida == 1:
