@@ -1,4 +1,4 @@
-#Ém python é possível declarar multiplas variaveis e valores por linha
+#Em python é possível declarar multiplas variaveis e valores por linha
 
 name, age, gender = 'Jonh', 35, 'male' 
 
