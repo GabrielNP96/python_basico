@@ -2,3 +2,4 @@
 
 myTuple = ('Café','Suco','Refrigerante','Pão')
 print(myTuple)
+#tuplas são imutaveis
