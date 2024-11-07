@@ -24,3 +24,10 @@ def valor_item(a, b=5):
 valor_item(29.5)
 valor_item(115, 8)
 print('-' * 20)
+
+#função co retorno
+
+def soma(a,b):
+    return a + b
+
+print(soma(1,4))
