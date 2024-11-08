@@ -1,16 +1,16 @@
 def dividir(num):
     try:
-        divisao = num / 2
-
-        if divisao == 0:
+        if num == 0:
             print('Número não pode ser 0.')
         else:
-            print(f'{num} / 2 = {num / 2}')
-    except:
-        print('Erro: número não pode  uma string')
+            divisao = num / 2
+            print(f'{num} / 2 = {divisao}')
+    except TypeError:
+        print('Erro: entrada inválida, o número não pode ser uma string ou um valor não numérico.')
     finally:
-        print('Programa finalizado')
+        print('Programa finalizado.')
 
+# Testando a função
 dividir(4)
 dividir(0)
 dividir(-4)
